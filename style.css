@@ -1,0 +1,133 @@
+html, body, div, span,h1, h2, p, i, ul, li,
+article, figure, footer, header, nav, section{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+header, article, section, figure, footer, nav{
+	display: block;
+}
+body{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+/*navbar*/
+nav{
+	margin-top: 20px;
+}
+nav.navbar.navbar-default div.container div.navbar-header a{
+	background: url("./images/logo.svg");
+	background-size: cover;
+	color: transparent;
+	width: 165px;
+}
+
+nav.navbar-default{
+	background-color: #fff;
+    border-color: #fff;
+}
+.navbar-default .navbar-nav li a{
+	color:#333399;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+/*figure*/
+figure{
+	background: url("./images/HeroImage-Header.jpg");
+}
+figure h1{
+	color: #fff;
+    padding: 10% 0;
+    font-size: 150px;
+    width: 20%;
+}
+/*info*/
+#info{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#info h1{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-size: 40px;
+    color: #339;
+    font-weight: bold;
+}
+#info div.line{
+	width: 10%;
+    margin: 0 auto;
+    height: 5px;
+    background-color: #333399;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#info article div .col-md-6 img{
+	width: 100%;
+}
+#info div.info{
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+#info div.info p{
+	margin-bottom: 10%;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #000;
+}
+#info div.info button{
+	display: block;
+    margin: 0 auto;
+}
+/*speakers*/
+#speakers{
+	margin-bottom: 50px;
+}
+#speakers h1:nth-child(1){
+	text-transform: uppercase;
+	font-size: 40px;
+    color: #339;
+    font-weight: bold;
+}
+#speakers h1{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+#speakers div.line{
+	width: 10%;
+    margin: 0 auto;
+    height: 5px;
+    background-color: #333399;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#speakers .speaker{
+	position: relative;
+	margin-bottom: 20px;
+}
+#speakers .speaker img{
+	width: 100%;
+}
+#speakers .speaker h3{
+	color: #fff;
+    position: absolute;
+    bottom: 0;
+    background-color: #333399;
+    width: 100%;
+    bottom: -15px;
+    border-radius: 2px;
+    text-align: center;
+    padding-right: 15px;
+}
+/*responsive*/
+@media only screen and (max-width: 650px){
+	figure h1{
+	    font-size: 75px;
+	}
+}
