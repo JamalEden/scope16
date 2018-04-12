@@ -83,6 +83,10 @@ figure h1{
 #info div.info button{
 	display: block;
     margin: 0 auto;
+    background-color: #333399;
+    color: #fff;
+    padding: 20px;
+    border: none;
 }
 /*speakers*/
 #speakers{
@@ -129,5 +133,17 @@ figure h1{
 @media only screen and (max-width: 650px){
 	figure h1{
 	    font-size: 75px;
+	}
+	nav.navbar.navbar-default div.container div.navbar-header a{
+		margin-left: 15px;
+	}
+	#info div.line, #speakers div.line{
+	width: 30%;
+	}
+	#info h1, #speakers h1:nth-child(1){
+		font-size: 30px;
+	}
+	#speakers .speaker h3{
+		font-size: 15px;
 	}
 }
